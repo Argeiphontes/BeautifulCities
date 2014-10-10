@@ -14,6 +14,8 @@
 		81F4D64F19E823BF000FE332 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F4D64E19E823BF000FE332 /* Images.xcassets */; };
 		81F4D65219E823BF000FE332 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81F4D65019E823BF000FE332 /* LaunchScreen.xib */; };
 		81F4D65E19E823BF000FE332 /* BeautifulCitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F4D65D19E823BF000FE332 /* BeautifulCitiesTests.m */; };
+		81F4D66919E82835000FE332 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F4D66819E82835000FE332 /* City.m */; };
+		81F4D66C19E83879000FE332 /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F4D66B19E83879000FE332 /* CityViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		81F4D65719E823BF000FE332 /* BeautifulCitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifulCitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F4D65C19E823BF000FE332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81F4D65D19E823BF000FE332 /* BeautifulCitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulCitiesTests.m; sourceTree = "<group>"; };
+		81F4D66719E82835000FE332 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		81F4D66819E82835000FE332 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		81F4D66A19E83879000FE332 /* CityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityViewController.h; sourceTree = "<group>"; };
+		81F4D66B19E83879000FE332 /* CityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +87,14 @@
 		81F4D64019E823BF000FE332 /* BeautifulCities */ = {
 			isa = PBXGroup;
 			children = (
-				81F4D64519E823BF000FE332 /* AppDelegate.h */,
-				81F4D64619E823BF000FE332 /* AppDelegate.m */,
+				81F4D64B19E823BF000FE332 /* Main.storyboard */,
 				81F4D64819E823BF000FE332 /* ViewController.h */,
 				81F4D64919E823BF000FE332 /* ViewController.m */,
-				81F4D64B19E823BF000FE332 /* Main.storyboard */,
+				81F4D66A19E83879000FE332 /* CityViewController.h */,
+				81F4D66B19E83879000FE332 /* CityViewController.m */,
+				81F4D66719E82835000FE332 /* City.h */,
+				81F4D66819E82835000FE332 /* City.m */,
 				81F4D64E19E823BF000FE332 /* Images.xcassets */,
-				81F4D65019E823BF000FE332 /* LaunchScreen.xib */,
 				81F4D64119E823BF000FE332 /* Supporting Files */,
 			);
 			path = BeautifulCities;
@@ -96,6 +103,9 @@
 		81F4D64119E823BF000FE332 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				81F4D65019E823BF000FE332 /* LaunchScreen.xib */,
+				81F4D64519E823BF000FE332 /* AppDelegate.h */,
+				81F4D64619E823BF000FE332 /* AppDelegate.m */,
 				81F4D64219E823BF000FE332 /* Info.plist */,
 				81F4D64319E823BF000FE332 /* main.m */,
 			);
@@ -221,6 +231,8 @@
 			files = (
 				81F4D64A19E823BF000FE332 /* ViewController.m in Sources */,
 				81F4D64719E823BF000FE332 /* AppDelegate.m in Sources */,
+				81F4D66C19E83879000FE332 /* CityViewController.m in Sources */,
+				81F4D66919E82835000FE332 /* City.m in Sources */,
 				81F4D64419E823BF000FE332 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
